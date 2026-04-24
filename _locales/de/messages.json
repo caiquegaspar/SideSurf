@@ -1,0 +1,26 @@
+{
+  "extName": { "message": "SideSurf" },
+  "extDesc": {
+    "message": "Funktionaler Seitenleisten-Browser mit Tabs und smartem Kachel-Layout."
+  },
+  "actionOpen": { "message": "In SideSurf öffnen" },
+  "menuPage": { "message": "Seite in SideSurf öffnen" },
+  "menuLink": { "message": "Link in SideSurf öffnen" },
+  "newTab": { "message": "Neuer Tab" },
+  "searchPlaceholder": { "message": "URL eingeben oder suchen..." },
+  "tabLimitAlert": {
+    "message": "Um die Leistung zu erhalten, liegt das Limit bei $LIMIT$ Tabs.",
+    "placeholders": { "limit": { "content": "$1" } }
+  },
+
+  "closeTab": { "message": "Tab schließen" },
+  "switchToTiling": { "message": "Zum Kachel-Layout wechseln" },
+  "switchToTabs": { "message": "Zu Tabs wechseln" },
+  "btnBackTitle": { "message": "Zurück (Alt+←)" },
+  "btnForwardTitle": { "message": "Vorwärts (Alt+→)" },
+  "btnReloadTitle": { "message": "Neu laden (F5)" },
+  "btnZoomOutTitle": { "message": "Verkleinern" },
+  "btnZoomInTitle": { "message": "Vergrößern" },
+  "zoomLabelTitle": { "message": "Klicken, um den Zoom zurückzusetzen" },
+  "btnNewTabTitle": { "message": "Neuer Tab" }
+}

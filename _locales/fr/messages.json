@@ -1,0 +1,26 @@
+{
+  "extName": { "message": "SideSurf" },
+  "extDesc": {
+    "message": "Navigateur de barre latérale fonctionnel avec onglets et disposition en mosaïque intelligente."
+  },
+  "actionOpen": { "message": "Ouvrir dans SideSurf" },
+  "menuPage": { "message": "Ouvrir la page dans SideSurf" },
+  "menuLink": { "message": "Ouvrir le lien dans SideSurf" },
+  "newTab": { "message": "Nouvel onglet" },
+  "searchPlaceholder": { "message": "Tapez une URL ou recherchez..." },
+  "tabLimitAlert": {
+    "message": "Pour maintenir les performances, la limite maximale est de $LIMIT$ onglets.",
+    "placeholders": { "limit": { "content": "$1" } }
+  },
+
+  "closeTab": { "message": "Fermer l'onglet" },
+  "switchToTiling": { "message": "Passer en mosaïque" },
+  "switchToTabs": { "message": "Passer aux onglets" },
+  "btnBackTitle": { "message": "Précédent (Alt+←)" },
+  "btnForwardTitle": { "message": "Suivant (Alt+→)" },
+  "btnReloadTitle": { "message": "Actualiser (F5)" },
+  "btnZoomOutTitle": { "message": "Dézoomer" },
+  "btnZoomInTitle": { "message": "Zoomer" },
+  "zoomLabelTitle": { "message": "Cliquez pour réinitialiser le zoom" },
+  "btnNewTabTitle": { "message": "Nouvel onglet" }
+}

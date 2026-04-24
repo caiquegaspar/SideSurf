@@ -1,0 +1,26 @@
+{
+  "extName": { "message": "SideSurf" },
+  "extDesc": {
+    "message": "Navegador lateral funcional con pestañas y diseño de mosaico inteligente."
+  },
+  "actionOpen": { "message": "Abrir en SideSurf" },
+  "menuPage": { "message": "Abrir página en SideSurf" },
+  "menuLink": { "message": "Abrir enlace en SideSurf" },
+  "newTab": { "message": "Nueva pestaña" },
+  "searchPlaceholder": { "message": "Escribe una URL o busca..." },
+  "tabLimitAlert": {
+    "message": "Para mantener el rendimiento, el límite máximo es de $LIMIT$ pestañas.",
+    "placeholders": { "limit": { "content": "$1" } }
+  },
+
+  "closeTab": { "message": "Cerrar pestaña" },
+  "switchToTiling": { "message": "Cambiar a Mosaico" },
+  "switchToTabs": { "message": "Cambiar a Pestañas" },
+  "btnBackTitle": { "message": "Atrás (Alt+←)" },
+  "btnForwardTitle": { "message": "Adelante (Alt+→)" },
+  "btnReloadTitle": { "message": "Recargar (F5)" },
+  "btnZoomOutTitle": { "message": "Reducir zoom" },
+  "btnZoomInTitle": { "message": "Aumentar zoom" },
+  "zoomLabelTitle": { "message": "Haz clic para restablecer el zoom" },
+  "btnNewTabTitle": { "message": "Nueva pestaña" }
+}

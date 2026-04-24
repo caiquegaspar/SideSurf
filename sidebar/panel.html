@@ -1,0 +1,46 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SideSurf</title>
+    <link rel="stylesheet" href="panel.css" />
+  </head>
+
+  <body>
+    <div id="app">
+      <div id="toolbar">
+        <div class="toolbar-group" id="nav-buttons">
+          <button class="toolbar-btn" id="btn-back">&#8592;</button>
+          <button class="toolbar-btn" id="btn-forward">&#8594;</button>
+          <button class="toolbar-btn" id="btn-reload">&#8635;</button>
+        </div>
+
+        <div id="url-bar-wrap">
+          <input
+            type="text"
+            id="url-bar"
+            autocomplete="off"
+            spellcheck="false"
+          />
+        </div>
+
+        <div class="toolbar-group" id="toolbar-right">
+          <button class="toolbar-btn" id="btn-zoom-out">−</button>
+          <span id="zoom-label">100%</span>
+          <button class="toolbar-btn" id="btn-zoom-in">+</button>
+
+          <div class="toolbar-divider"></div>
+
+          <button class="toolbar-btn" id="btn-layout">&#9701;</button>
+          <button class="toolbar-btn" id="btn-new-tab">+</button>
+        </div>
+      </div>
+
+      <div id="tab-bar"></div>
+      <div id="content-area"></div>
+    </div>
+
+    <script src="panel.js"></script>
+  </body>
+</html>

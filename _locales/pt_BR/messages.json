@@ -1,0 +1,26 @@
+{
+  "extName": { "message": "SideSurf" },
+  "extDesc": {
+    "message": "Navegador lateral funcional com abas e modo tiling inteligente."
+  },
+  "actionOpen": { "message": "Abrir no SideSurf" },
+  "menuPage": { "message": "Abrir página no SideSurf" },
+  "menuLink": { "message": "Abrir link no SideSurf" },
+  "newTab": { "message": "Nova Aba" },
+  "searchPlaceholder": { "message": "Digite uma URL ou pesquise..." },
+  "tabLimitAlert": {
+    "message": "Para manter o desempenho, o limite máximo é de $LIMIT$ abas.",
+    "placeholders": { "limit": { "content": "$1" } }
+  },
+
+  "closeTab": { "message": "Fechar aba" },
+  "switchToTiling": { "message": "Mudar para Tiling" },
+  "switchToTabs": { "message": "Mudar para Abas" },
+  "btnBackTitle": { "message": "Voltar (Alt+←)" },
+  "btnForwardTitle": { "message": "Avançar (Alt+→)" },
+  "btnReloadTitle": { "message": "Recarregar (F5)" },
+  "btnZoomOutTitle": { "message": "Diminuir zoom" },
+  "btnZoomInTitle": { "message": "Aumentar zoom" },
+  "zoomLabelTitle": { "message": "Clique para resetar zoom" },
+  "btnNewTabTitle": { "message": "Nova aba" }
+}

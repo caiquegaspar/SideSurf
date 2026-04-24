@@ -1,0 +1,26 @@
+{
+  "extName": { "message": "SideSurf" },
+  "extDesc": {
+    "message": "Functional sidebar browser with tabs and smart tiling layout."
+  },
+  "actionOpen": { "message": "Open in SideSurf" },
+  "menuPage": { "message": "Open page in SideSurf" },
+  "menuLink": { "message": "Open link in SideSurf" },
+  "newTab": { "message": "New Tab" },
+  "searchPlaceholder": { "message": "Type a URL or search..." },
+  "tabLimitAlert": {
+    "message": "To maintain performance, the maximum limit is $LIMIT$ tabs.",
+    "placeholders": { "limit": { "content": "$1" } }
+  },
+
+  "closeTab": { "message": "Close tab" },
+  "switchToTiling": { "message": "Switch to Tiling" },
+  "switchToTabs": { "message": "Switch to Tabs" },
+  "btnBackTitle": { "message": "Back (Alt+←)" },
+  "btnForwardTitle": { "message": "Forward (Alt+→)" },
+  "btnReloadTitle": { "message": "Reload (F5)" },
+  "btnZoomOutTitle": { "message": "Zoom out" },
+  "btnZoomInTitle": { "message": "Zoom in" },
+  "zoomLabelTitle": { "message": "Click to reset zoom" },
+  "btnNewTabTitle": { "message": "New tab" }
+}

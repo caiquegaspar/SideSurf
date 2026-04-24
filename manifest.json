@@ -1,0 +1,62 @@
+{
+  "manifest_version": 2,
+  "name": "__MSG_extName__",
+  "description": "__MSG_extDesc__",
+  "version": "1.0.0",
+  "default_locale": "en",
+
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "sidesurf-browser@local",
+      "strict_min_version": "142.0",
+      "data_collection_permissions": {
+        "required": ["none"]
+      }
+    }
+  },
+
+  "icons": {
+    "48": "icons/icon.svg",
+    "96": "icons/icon.svg"
+  },
+
+  "sidebar_action": {
+    "default_icon": "icons/icon.svg",
+    "default_title": "__MSG_extName__",
+    "default_panel": "sidebar/panel.html"
+  },
+
+  "page_action": {
+    "default_icon": "icons/icon.svg",
+    "default_title": "__MSG_actionOpen__"
+  },
+
+  "background": {
+    "scripts": ["background.js"]
+  },
+
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "all_frames": true,
+      "js": ["content.js"],
+      "run_at": "document_start"
+    }
+  ],
+
+  "permissions": [
+    "webRequest",
+    "webRequestBlocking",
+    "contextMenus",
+    "tabs",
+    "<all_urls>",
+    "storage"
+  ],
+
+  "commands": {
+    "_execute_sidebar_action": {
+      "suggested_key": { "default": "Ctrl+Shift+S" },
+      "description": "Abrir/fechar SideSurf"
+    }
+  }
+}
